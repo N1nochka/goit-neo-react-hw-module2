@@ -1,0 +1,61 @@
+.feedbackContainer {
+  width: 100%;
+  padding: 25px;
+  background-color: rgba(30, 30, 30, 0.8);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 215, 0, 0.1);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 280px;
+}
+
+.statsList {
+  width: 100%;
+}
+
+.statItem {
+  color: #d0d0d0;
+  font-size: 1.1rem;
+  padding: 10px 0;
+  margin: 0;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+}
+
+.statItem:last-child {
+  border-bottom: none;
+}
+
+.statDivider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 215, 0, 0.3),
+    transparent
+  );
+  margin: 15px 0;
+}
+
+.statLabel {
+  color: #cfcdcd;
+}
+
+.statValue {
+  color: #fff;
+  font-weight: 500;
+}
+
+.total {
+  color: rgba(255, 215, 0, 0.8);
+  font-weight: 600;
+}
+
+.positive {
+  color: rgba(255, 215, 0, 0.8);
+  font-weight: 600;
+}

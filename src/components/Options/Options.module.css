@@ -1,0 +1,58 @@
+.optionsContainer {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  min-height: 50px;
+}
+
+.btn,
+.resetBtn {
+  padding: 12px 28px;
+  border: 2px solid #a0aec0;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 90px;
+  background-color: #282a29;
+  color: white;
+  border-radius: 8px;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -moz-user-focus: ignore;
+}
+
+.resetBtn {
+  background-color: rgba(44, 44, 44, 0.8);
+}
+
+.btn:focus,
+.resetBtn:focus,
+.btn:focus-visible,
+.resetBtn:focus-visible,
+.btn:active,
+.resetBtn:active,
+.btn:hover,
+.resetBtn:hover {
+  outline: none;
+  box-shadow: none;
+  border-color: #a0aec0;
+}
+
+.btn:hover,
+.resetBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.8) !important;
+}
+
+.btn::-moz-focus-inner,
+.resetBtn::-moz-focus-inner {
+  border: 0;
+  outline: none;
+}
