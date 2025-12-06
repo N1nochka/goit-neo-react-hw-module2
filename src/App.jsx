@@ -2,6 +2,7 @@ import { useState, useEffect, useMemo } from "react";
 import Options from "./components/Options/Options";
 import Feedback from "./components/Feedback/Feedback";
 import Notification from "./components/Notification/Notification";
+import Description from "./components/Description/Description";
 import "./App.css";
 
 export default function App() {
@@ -49,9 +50,7 @@ export default function App() {
           <h1>Sip Happens Café</h1>
         </div>
         
-        <p className="subtitle">
-          Please leave your feedback about our service by selecting one of the options below.
-        </p>
+        <Description />
 
         <Options
           onUpdate={updateFeedback}
